@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+
+.user {
+  background-color: #889bc2;
+  height: 1000px;
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.user-input {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.user-btn {
+  background-color: rgb(11, 111, 194);
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.App-header {
+  background-color: #889bc2;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.leadboard {
+  background-color: #1184a7;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  background-color: green;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+li {
+  height: 100px;
+  width: 400px;
+}
+
+.search1 {
+  background-color:skyblue;
+  height: 30px;
+  width: 70px;
+  border-radius: 0px;
+}
+table,tr,td,th {
+  /* border: 1px solid black;
+  border-collapse: collapse; */
+  border-radius: 10px;
+}
+th {
+  background-color: rgb(117, 12, 29);
+  color: green;
+}
+td {
+  background-color: grey;
+  width: 400px;
+}
+.pageinter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.vechicle-activity {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.btn {
+  position: relative;
+  bottom: 15px;
+
+}
+h1 {
+  color: red;
+}
